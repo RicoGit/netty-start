@@ -1,4 +1,4 @@
-package examples.first;
+package examples.echoserver;
 
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
