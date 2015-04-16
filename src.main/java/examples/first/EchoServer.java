@@ -17,11 +17,11 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
  * Time: 18:30
  */
 
-public class DiscardServer {
+public class EchoServer {
 
     private int port;
 
-    public DiscardServer(int port) {
+    public EchoServer(int port) {
         this.port = port;
     }
 
@@ -63,7 +63,7 @@ public class DiscardServer {
        } else {
            port = 8070;
        }
-       new DiscardServer(port).run();
+       new EchoServer(port).run();
 
     }
 
